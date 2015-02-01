@@ -5,7 +5,7 @@
   background: @tree-view-background-color;
 
   .selected:before {
-    background: #444;
+    background: #004D40;
     box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
   }
 }
@@ -18,14 +18,14 @@
 
 .focusable-panel {
   opacity: 1;
-  background: #303030;
-  box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
+  background: #00695C;
 
   &:focus {
-    background: #282828;
+    background: #004D40;
 
     .selected:before {
-      background: @background-color-selected;
+      background: #009688;
+      box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
     }
 
     .selected > .name,
